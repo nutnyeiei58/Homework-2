@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>โปรไฟล์ของฉัน - ข้อมูลนักศึกษา</title>
+</head>
+<body style="background-color: #f4f6f9; font-family: sans-serif; color: #333; margin: 0; padding: 20px;">
+
+    <div style="max-width: 800px; margin: 0 auto; background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        
+        <!-- หัวข้อหลัก -->
+        <h1 style="text-align: center; color: #1e3d59;">ประวัตินักศึกษา</h1>
+        <hr style="border: 0; height: 1px; background: #ccc; margin-bottom: 20px;">
+
+        <!-- ส่วนรูปภาพโปรไฟล์ (ใช้รูปที่ถ่ายตรง MRT สุขุมวิท) -->
+        <div style="text-align: center; margin-bottom: 20px;">
+            <img src="profile.jpg" alt="profile" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #1e3d59;">
+        </div>
+
+        <!-- รายละเอียดส่วนตัว -->
+        <h2 style="color: #1e3d59;">ข้อมูลส่วนตัว</h2>
+        <ul>
+            <li><strong>ชื่อ-นามสกุล:</strong> ดีโด้ หรอยจังฮู้ว</li>
+            <li><strong>ชื่อเล่น:</strong> ซิกเซเว่น</li>
+            <li><strong>สาขาวิชา:</strong> เทคโนโลยีสารสนเทศและสารสนเทศ (DIT)</li>
+            <li><strong>กลุ่มเรียน (Section):</strong> 1</li>
+        </ul>
+
+        <hr style="border: 0; height: 1px; background: #eee; margin: 20px 0;">
+
+        <!-- ส่วนเนื้อหา Paragraph -->
+        <h2 style="color: #1e3d59;">ความเรียงและทัศนคติ</h2>
+        
+        <h3>เหตุผลที่อยากเรียน Full stack web development</h3>
+        <p style="text-align: justify; line-height: 1.6;">
+            เนื่องจากผมมีความสนใจในการพัฒนาซอฟต์แวร์และแอปพลิเคชันอย่างครบวงจร การเรียน Full Stack ช่วยให้ผมเข้าใจทั้งโครงสร้างหน้าบ้าน (Frontend) ที่ผู้ใช้งานมองเห็น และระบบหลังบ้าน (Backend) ที่จัดการข้อมูลและเซิร์ฟเวอร์ มันทำให้ผมสามารถสร้างสรรค์โปรเจกต์หรือไอเดียต่าง ๆ ให้เกิดขึ้นจริงได้ด้วยตัวคนเดียว และเป็นทักษะที่ตลาดแรงงานในปัจจุบันมีความต้องการสูงมากครับ
+        </p>
+
+        <h3>ความคาดหวังต่อวิชานี้</h3>
+        <p style="text-align: justify; line-height: 1.6;">
+            ผมคาดหวังว่าจะได้เรียนรู้กระบวนการพัฒนาเว็บอย่างเป็นระบบ ตั้งแต่การออกแบบ UI/UX การเขียนโค้ดเชื่อมต่อฐานข้อมูล ไปจนถึงการนำเว็บไซค์ขึ้นระบบจริง (Deployment) รวมถึงได้ฝึกฝนการแก้ปัญหาเฉพาะหน้าในการเขียนโปรแกรม และสามารถนำความรู้ที่ได้ไปต่อยอดในการทำโปรเจกต์จบหรือใช้ในการทำงานจริงในอนาคตครับ
+        </p>
+
+        <h3>อะไรจุดอ่อน ที่ตนเองต้องพัฒนาเกี่ยวกับทักษะ Programming และ แนวทางการพัฒนา</h3>
+        <p style="text-align: justify; line-height: 1.6;">
+            จุดอ่อนของผมในตอนนี้คือเรื่องของการจัดระเบียบโครงสร้างโค้ด (Clean Code) และการคิดลอจิกของอัลกอริทึมที่ซับซ้อน ซึ่งบางครั้งทำให้ใช้เวลาในการดีบั๊ก (Debug) หาข้อผิดพลาดค่อนข้างนาน แนวทางการพัฒนาของผมคือการฝึกฝนเขียนโค้ดอย่างสม่ำเสมอในทุกๆ วัน ศึกษาโค้ดจากผู้เชี่ยวชาญใน GitHub และพยายามฝึกทำโจทย์แนวพัฒนาอัลกอริทึมให้มากขึ้นเพื่อเพิ่มความชำนาญครับ
+        </p>
+
+        <hr style="border: 0; height: 1px; background: #eee; margin: 20px 0;">
+
+        <!-- ลิงก์ไปยังหน้า Website ที่ชื่นชอบ -->
+        <h2 style="color: #1e3d59;">สิ่งที่น่าสนใจ & แรงบันดาลใจ</h2>
+        
+        <p><strong>เว็บไซต์ที่ชื่นชอบและได้รับแรงบันดาลใจ:</strong> 
+            <a href="https://github.com" target="_blank" style="color: #ff6e40; text-decoration: none; font-weight: bold;">เยี่ยมชม GitHub.com</a>
+        </p>
+
+        <div style="text-align: center; margin-top: 15px;">
+            <p><em>รูปภาพที่น่าสนใจ (แรงบันดาลใจในมู้ดโทนสีและแสงธรรมชาติ)</em></p>
+            <img src="IMG_0198.jpeg" alt="Sunset Inspiration" style="width: 100%; max-width: 500px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        </div>
+
+    </div>
+
+</body>
+</html>
